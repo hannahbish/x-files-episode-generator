@@ -44,7 +44,7 @@ pursues <noun>
 hunts for <noun> 
 is arrested for investigating <noun> 
 meets with <noun> 
-believes that <noun> 
+wants to believe in <noun> 
 crosses paths with <noun> 
 receives a mysterious phone call from <noun> 
 }
@@ -78,12 +78,11 @@ find answers to their questions about <noun>
 clues about <noun> 
 information about <noun> 
 the truth behind <noun> 
-the death of <noun> 
 the mysterious case of <noun> 
 the cover-up of <noun> 
 the secret transport of <noun> 
 the disappearance of <noun> 
-his father's involvement in <noun> 
+Mulder's father's involvement in <noun> 
 the whereabouts of <noun> 
 the mystery surrounding <noun> 
 the sudden appearance of <noun> 
@@ -93,65 +92,81 @@ puzzling new evidence about <noun>
 {
 <noun> 
 the government hoax concerning the existence of extraterrestrial life 
-a military test pilot <ending_phrase_singular> 
-a satanic cult <ending_phrase_singular> 
-a humanoid killer <ending_phrase_singular> 
-a legendary creature <ending_phrase_singular> 
-two men <ending_phrase_plural> 
-a corporate executive <ending_phrase_singular> 
-a team of geophysicists stationed at a remote outpost <ending_phrase_plural> 
-a UFO crash 
-two missing girls <ending_phrase_plural>  
-a religious sect member <ending_phrase_singular> 
-a criminal <ending_phrase_singular> 
-an alien life form 
-a creature <ending_phrase_singular> 
-Queequeg <ending_phrase_singular> 
-Bigfoot
-The Lone Gunmen <ending_phrase_plural> 
-Chris Carter <ending_phrase_singular> 
-a fetishist <ending_phrase_singular> 
-a murder in a small town 
-an alien abduction 
-A.D. Skinner <ending_phrase_singular> 
-an alien bounty hunter <ending_phrase_singular> 
-a Florida man <ending_phrase_singular> 
-a deadly contagion 
+a military test pilot <ending_phrase_singular_persons> 
+a satanic cult <ending_phrase_singular_things> 
+a humanoid killer <ending_phrase_singular_things> 
+a legendary creature <ending_phrase_singular_persons> 
+two men <ending_phrase_plural_persons> 
+a corporate executive <ending_phrase_singular_persons> 
+a team of geophysicists stationed at a remote outpost <ending_phrase_plural_persons> 
+a UFO crash <ending_phrase_singular_things>
+two missing girls <ending_phrase_plural_persons>  
+a religious sect member <ending_phrase_singular_persons> 
+a criminal <ending_phrase_singular_persons> 
+an alien life form <ending_phrase_singular_things> 
+a creature <ending_phrase_singular_persons> 
+Queequeg <ending_phrase_singular_persons> 
+Bigfoot 
+The Lone Gunmen <ending_phrase_plural_persons> 
+Chris Carter <ending_phrase_singular_persons> 
+a fetishist <ending_phrase_singular_persons> 
+a murder in a small town <ending_phrase_singular_things>
+an alien abduction <ending_phrase_singular_things> 
+A.D. Skinner <ending_phrase_singular_persons> 
+an alien bounty hunter <ending_phrase_singular_persons> 
+a Florida man <ending_phrase_singular_persons> 
+a deadly contagion <ending_phrase_singular_things> 
 an encrypted computer disk containing the government's top secret files on extraterrestrial life 
-a quadruple amputee <ending_phrase_singular> 
-the government's secret experiments 
-a sunken World War II aircraft 
-an alien being <ending_phrase_singular> 
-a super soldier <ending_phrase_singular> 
-a creature from African folklore <ending_phrase_singular> 
+a quadruple amputee <ending_phrase_singular_persons> 
+the government's secret experiments <ending_phrase_plural_things>
+a sunken World War II aircraft <ending_phrase_singular_things>
+an alien being <ending_phrase_singular_persons>  
+a super soldier <ending_phrase_singular_persons> 
+a creature from African folklore <ending_phrase_singular_persons> 
 a Martian meteorite fragment containing an alien life form 
 el Chupacabra 
-a mysterious old man <ending_phrase_singular> 
-a swarm of bees 
-a mythical creature <ending_phrase_singular> 
-Krycek <ending_phrase_singular> 
+a mysterious old man <ending_phrase_singular_persons>  
+a swarm of bees <ending_phrase_plural_things>
+a mythical creature <ending_phrase_singular_things> 
+Krycek <ending_phrase_singular_persons> 
 the Yeti 
 the Loch Ness Monster 
 Sasquatch 
-the Jersey Devil 
-a genie <ending_phrase_singular> 
-hundreds of human bones 
-a town populated by circus performers 
-invisible animals <ending_phrase_plural> 
-Cigarette Smoking Man 
-a young boy with psychic powers <ending_phrase_singular> 
-a blind woman <ending_phrase_singular> 
-an aging FBI agent <ending_phrase_singular> 
-a super-intelligent virus program 
-a therapist working with chrildren from abusive families <ending_phrase_singular> 
+the Jersey Devil <ending_phrase_singular_persons>
+a genie <ending_phrase_singular_persons> 
+hundreds of human bones <ending_phrase_plural_things>
+a town populated by circus performers <ending_phrase_singular_things>
+invisible animals <ending_phrase_plural_things> 
+Cigarette Smoking Man <ending_phrase_singular_persons>
+a young boy with psychic powers <ending_phrase_singular_persons>  
+a blind woman <ending_phrase_singular_persons> 
+an aging FBI agent <ending_phrase_singular_persons>  
+a super-intelligent virus program <ending_phrase_singular_things>
+a therapist working with chrildren from abusive families <ending_phrase_singular_persons> 
+a kidnapper <ending_phrase_singular_persons>
+doctors possessed by witchcraft <ending_phrase_plural_persons>
+an incarcerated serial killer <ending_phrase_singular_persons>
+a handsome divorcee <ending_phrase_singular_persons>
+several Army generals <ending_phrase_plural_persons>
+five unrelated women in a small town <ending_phrase_plural_persons>
+a headless corpse <ending_phrase_singular_things>
+an alien space ship <ending_phrase_singular_things>
+a commercial airliner crash <ending_phrase_singular_things>
+the apparent downing of Flight 549 by a UFO 
+a series of deaths <ending_phrase_plural_things>
 }
 
 {
-<ending_phrase_singular> 
+<ending_phrase_singular_persons> 
+whose mind's eye can be captured on film
+which inadvertently draws Mulder into recalling a past life
+who mysteriously kills a postal worker
+who assists the agents with the hunt for a killer
+who becomes the prime suspect in a series of bizzare deaths
 who disappeared after experiencing strange psychotic behavior 
 whose savage murder spree reoccurs every 30 years 
-that closely parallels an "encounter" he experienced as a child 
-that has roamed the New Jersey countryside for over 40 years 
+that closely parallels an "encounter" Mulder experienced as a child 
+who has roamed the New Jersey countryside for over 40 years 
 believed to have been killed by a powerful psychokinetic force 
 who may have been murdered by a thinking computer 
 who is killed by a parasitic alien life form 
@@ -171,17 +186,17 @@ who possesses miraculous healing powers
 who claims to have been possessed by demonic powers 
 who leaves a trail of destruction across seventeen states 
 which could lead closer to the truth than ever before 
-that appears to have the power to pass through solid matter
+who appears to have the power to pass through solid matter
 who may be the proof that Mulder has looked for all his life 
 who claims to be a multiple abductee 
 }
 
 {
-<ending_phrase_plural> 
+<ending_phrase_plural_persons> 
 who disappeared after experiencing strange psychotic behavior 
 whose savage murder spree reoccurs every 30 years 
-that closely parallels an "encounter" he experienced as a child 
-that have roamed the New Jersey countryside for over 40 years 
+that closely parallels an "encounter" Mulder experienced as a child 
+who have roamed the New Jersey countryside for over 40 years 
 believed to have been killed by a powerful psychokinetic force 
 who may have been murdered by a thinking computer 
 who were killed by a parasitic alien life form 
@@ -189,13 +204,68 @@ who disappeared after their fathers were murdered in an identical fashion
 who may have a connection to Samantha's disappearance 
 who collect pieces of the dead
 who hold the key to Samantha's whereabouts 
-that is plagued by a series of random accidents 
+who are plagued by a series of random accidents 
 seemingly under attack by killer cockroaches 
 who possess miraculous healing powers 
 who can apparently talk victims into killing themselves 
 who claim to have been possessed by demonic powers 
 who have dangerous telekinetic powers 
 who leave a trail of destruction across seventeen states 
-that appears to have the power to pass through solid matter 
+who appears to have the power to pass through solid matter 
 who may be the proof that Mulder has looked for all his life 
+which inadvertently draws Mulder into recalling a past life
+who mysteriously kill a postal worker
+who were apparently struck by lightning in the same small town
+}
+
+{
+<ending_phrase_singular_things> 
+which inadvertently draws Mulder into recalling a past life
+that mysteriously kills a postal worker
+that disappeared after experiencing strange behavior 
+that closely parallels an "encounter" Mulder experienced as a child 
+that has roamed the New Jersey countryside for over 40 years 
+believed to have been killed by a powerful psychokinetic force 
+that may have been murdered by a thinking computer 
+that was killed by a parasitic alien life form 
+that is capable of changing gender 
+that becomes the prime suspect in a murder spree 
+that wages a vendetta against Mulder 
+that may have a connection to Samantha's disappearance 
+that collects pieces of the dead 
+that holds the key to Samantha's whereabouts 
+that is plagued by a series of random accidents 
+that has dangerous telekinetic powers 
+seemingly under attack by killer cockroaches 
+that possesses miraculous healing powers 
+that leaves a trail of destruction across seventeen states 
+which could lead closer to the truth than ever before 
+that appears to have the power to pass through solid matter
+that may be the proof that Mulder has looked for all his life 
+which inadvertently draws Mulder into recalling a past life
+that mysteriously kills a postal worker
+}
+
+{
+<ending_phrase_plural_things> 
+that disappeared after experiencing strange behavior 
+whose savage murder spree reoccurs every 30 years 
+that closely parallel an "encounter" Mulder experienced as a child 
+that have roamed the New Jersey countryside for over 40 years 
+believed to have been killed by a powerful psychokinetic force 
+that may have been murdered by a thinking computer 
+that were killed by a parasitic alien life form 
+that may have a connection to Samantha's disappearance 
+that collect pieces of the dead
+that hold the key to Samantha's whereabouts 
+that are plagued by a series of random accidents 
+seemingly under attack by killer cockroaches 
+that possess miraculous healing powers 
+that can apparently talk victims into killing themselves 
+that have dangerous telekinetic powers 
+that leave a trail of destruction across seventeen states 
+that appear to have the power to pass through solid matter 
+that may be the proof that Mulder has looked for all his life 
+which inadvertently draws Mulder into recalling a past life
+that mysteriously kill a postal worker
 }
