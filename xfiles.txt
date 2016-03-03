@@ -1,0 +1,201 @@
+{
+<start> 
+<main_character> .
+}
+
+{
+<main_character> 
+<singular> 
+<plural> 
+<plural> 
+<plural> 
+<plural> 
+}
+
+{
+<singular> 
+Mulder <verb_singular> 
+Scully <verb_singular> 
+}
+
+{
+<plural>
+Mulder and Scully <verb_plural> 
+}
+
+{
+<verb_singular> 
+investigates <beginning_phrase> 
+searches for <noun> 
+becomes obsessed with <beginning_phrase> 
+tracks <beginning_phrase> 
+is sent to investigate <beginning_phrase> 
+secretly infiltrates <beginning_phrase> 
+attempts to trace <beginning_phrase> 
+attempts to uncover the meaning behind <beginning_phrase> 
+experiences visions of <beginning_phrase> 
+is abducted by <noun> 
+is held hostage by <noun> 
+suspects the government is responsible for <beginning_phrase> 
+searches for clues about <beginning_phrase> 
+searches to uncover <beginning_phrase> 
+attempts to protect <noun> 
+pursues <noun> 
+hunts for <noun> 
+is arrested for investigating <noun> 
+meets with <noun> 
+believes that <noun> 
+crosses paths with <noun> 
+receives a mysterious phone call from <noun> 
+}
+
+{
+<verb_plural> 
+investigate <beginning_phrase> 
+search for <noun> 
+become obsessed with <beginning_phrase> 
+track <beginning_phrase> 
+are sent to investigate <beginning_phrase> 
+secretly infiltrate <beginning_phrase> 
+attempt to trace <beginning_phrase> 
+attempt to uncover the meaning behind <beginning_phrase> 
+are abducted by <noun> 
+are held hostage by <noun>
+suspect the government is responsible for <beginning_phrase> 
+search for <beginning_phrase> 
+search to uncover <beginning_phrase> 
+attempt to protect <noun> 
+pursue <noun> 
+hunt for <noun> 
+get involved in the investigation of <noun>
+cross paths with <noun> 
+find answers to their questions about <noun> 
+}
+
+{
+<beginning_phrase> 
+<noun> 
+clues about <noun> 
+information about <noun> 
+the truth behind <noun> 
+the death of <noun> 
+the mysterious case of <noun> 
+the cover-up of <noun> 
+the secret transport of <noun> 
+the disappearance of <noun> 
+his father's involvement in <noun> 
+the whereabouts of <noun> 
+the mystery surrounding <noun> 
+the sudden appearance of <noun> 
+puzzling new evidence about <noun> 
+}
+
+{
+<noun> 
+the government hoax concerning the existence of extraterrestrial life 
+a military test pilot <ending_phrase_singular> 
+a satanic cult <ending_phrase_singular> 
+a humanoid killer <ending_phrase_singular> 
+a legendary creature <ending_phrase_singular> 
+two men <ending_phrase_plural> 
+a corporate executive <ending_phrase_singular> 
+a team of geophysicists stationed at a remote outpost <ending_phrase_plural> 
+a UFO crash 
+two missing girls <ending_phrase_plural>  
+a religious sect member <ending_phrase_singular> 
+a criminal <ending_phrase_singular> 
+an alien life form 
+a creature <ending_phrase_singular> 
+Queequeg <ending_phrase_singular> 
+Bigfoot
+The Lone Gunmen <ending_phrase_plural> 
+Chris Carter <ending_phrase_singular> 
+a fetishist <ending_phrase_singular> 
+a murder in a small town 
+an alien abduction 
+A.D. Skinner <ending_phrase_singular> 
+an alien bounty hunter <ending_phrase_singular> 
+a Florida man <ending_phrase_singular> 
+a deadly contagion 
+an encrypted computer disk containing the government's top secret files on extraterrestrial life 
+a quadruple amputee <ending_phrase_singular> 
+the government's secret experiments 
+a sunken World War II aircraft 
+an alien being <ending_phrase_singular> 
+a super soldier <ending_phrase_singular> 
+a creature from African folklore <ending_phrase_singular> 
+a Martian meteorite fragment containing an alien life form 
+el Chupacabra 
+a mysterious old man <ending_phrase_singular> 
+a swarm of bees 
+a mythical creature <ending_phrase_singular> 
+Krycek <ending_phrase_singular> 
+the Yeti 
+the Loch Ness Monster 
+Sasquatch 
+the Jersey Devil 
+a genie <ending_phrase_singular> 
+hundreds of human bones 
+a town populated by circus performers 
+invisible animals <ending_phrase_plural> 
+Cigarette Smoking Man 
+a young boy with psychic powers <ending_phrase_singular> 
+a blind woman <ending_phrase_singular> 
+an aging FBI agent <ending_phrase_singular> 
+a super-intelligent virus program 
+a therapist working with chrildren from abusive families <ending_phrase_singular> 
+}
+
+{
+<ending_phrase_singular> 
+who disappeared after experiencing strange psychotic behavior 
+whose savage murder spree reoccurs every 30 years 
+that closely parallels an "encounter" he experienced as a child 
+that has roamed the New Jersey countryside for over 40 years 
+believed to have been killed by a powerful psychokinetic force 
+who may have been murdered by a thinking computer 
+who is killed by a parasitic alien life form 
+who disappeared after their father was murdered 
+who is capable of changing gender 
+who becomes the prime suspect in a murder spree 
+who wages a vendetta against Mulder 
+who may have a connection to Samantha's disappearance 
+who collects pieces of the dead 
+who holds the key to Samantha's whereabouts 
+who is plagued by a series of random accidents 
+who has dangerous telekinetic powers 
+seemingly under attack by killer cockroaches 
+who claims to have killed people under the influence of a demon
+who can apparently talk victims into killing themselves 
+who possesses miraculous healing powers 
+who claims to have been possessed by demonic powers 
+who leaves a trail of destruction across seventeen states 
+which could lead closer to the truth than ever before 
+that appears to have the power to pass through solid matter
+who may be the proof that Mulder has looked for all his life 
+who claims to be a multiple abductee 
+}
+
+{
+<ending_phrase_plural> 
+who disappeared after experiencing strange psychotic behavior 
+whose savage murder spree reoccurs every 30 years 
+that closely parallels an "encounter" he experienced as a child 
+that have roamed the New Jersey countryside for over 40 years 
+believed to have been killed by a powerful psychokinetic force 
+who may have been murdered by a thinking computer 
+who were killed by a parasitic alien life form 
+who disappeared after their fathers were murdered in an identical fashion 
+who may have a connection to Samantha's disappearance 
+who collect pieces of the dead
+who hold the key to Samantha's whereabouts 
+that is plagued by a series of random accidents 
+seemingly under attack by killer cockroaches 
+who possess miraculous healing powers 
+who can apparently talk victims into killing themselves 
+who claim to have been possessed by demonic powers 
+who have dangerous telekinetic powers 
+who leave a trail of destruction across seventeen states 
+that appears to have the power to pass through solid matter 
+who may be the proof that Mulder has looked for all his life 
+}
