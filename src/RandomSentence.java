@@ -1,12 +1,12 @@
-// Hannah Bish
-// hjb5rd
-
 public class RandomSentence {
 
 	private String text;
 
+	// create a random sentence from a grammar
 	public String generate(Grammar g, String symbol) {
 		String prod = g.getRandProduction(symbol);
+		
+		// if there is a nonterminal value, call again
 		if (prod.contains("<")) {
 			String[] words = prod.split("\\s+");
 			for (int i = 0; i < words.length; i++) {

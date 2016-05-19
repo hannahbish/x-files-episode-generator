@@ -1,6 +1,3 @@
-// Hannah Bish
-// hjb5rd
-
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.*;
@@ -10,42 +7,46 @@ public class Grammar {
 	private String start;
 	private Map<String, List<String>> productions;
 
+	// parse the grammar
 	public void load(String fileName) {
 		int count = 0;
 		try {			
-			//String fileName1 = System.getProperty("user.dir") + "/" + fileName;
 			File file = new File(System.getProperty("user.dir") + "/" + fileName);  
 			Scanner sc = new Scanner(file);  
+
 			while (sc.hasNext()) {
 				String line = sc.nextLine();
-				//System.out.println(line);
+
 				if (line.contains("{")) {
-					// if it's the start
 					String line2 = sc.nextLine();
-					//System.out.println("line2: " + line2);
-					if (line2.contains("<") && count == 0) {
-						String sym = line2.substring(line2.indexOf("<"), 
-								line2.indexOf(">") + 1);
-						this.setStartSymbol(sym);
-						count++;
-						while (!sc.hasNext("}")) {
-							String line3 = sc.nextLine();
-							//System.out.println("line3 " + line3);
-							this.addProduction(sym, line3);
-						}
-					}
-					//not the start
-					if (line2.contains("<") && count != 0) {
-						String sym = line2.substring(line2.indexOf("<"), 
-								line2.indexOf(">") + 1);
-						count++;
-						while (!sc.hasNext("}")) {
-							String line3 = sc.nextLine();
-							this.addProduction(sym, line3);
+
+					if (line2.contains("<")) {
+						if (count == 0) { // if it's the starting nonterminal
+							String sym = line2.substring(line2.indexOf("<"), 
+									line2.indexOf(">") + 1);
+							this.setStartSymbol(sym);
+							count++;
+							
+							// add all the terminal values 
+							while (!sc.hasNext("}")) {
+								String line3 = sc.nextLine();
+								this.addProduction(sym, line3);
+							}
+						} else { // not the start nonterminal
+							String sym = line2.substring(line2.indexOf("<"), 
+									line2.indexOf(">") + 1);
+							count++;
+							
+							// add all the terminal values
+							while (!sc.hasNext("}")) {
+								String line3 = sc.nextLine();
+								this.addProduction(sym, line3);
+							}
 						}
 					}
 				}
 			}
+			sc.close();
 		}
 		catch (FileNotFoundException e) {
 			e.printStackTrace();
@@ -60,6 +61,7 @@ public class Grammar {
 		this.start = sym;
 	}
 
+	// add grammar values to hash map
 	public void addProduction(String nonTerminal, String prod) { 
 		if (this.productions != null) {
 			Map<String, List<String>> prods = this.productions;
