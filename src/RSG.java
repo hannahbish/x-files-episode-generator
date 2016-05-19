@@ -36,12 +36,11 @@ public class RSG {
 	private static void display(String sentence) {
 		String[] tokens = sentence.split("\\s+");
 		
-		int count = 0;
 		int lineLen = 0;
 		String outputString = "";
 		
-		while ( count < tokens.length ) {
-			String term = tokens[count];
+		for (int i = 0; i < tokens.length; i++) {
+			String term = tokens[i];
 			lineLen += term.length();
 			
 			// break up long lines
@@ -52,7 +51,6 @@ public class RSG {
 			else {
 				outputString += term + " ";
 			}
-			++count;
 		}
 		
 		// fix spacing before , and . 
